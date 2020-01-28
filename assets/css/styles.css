@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth
+}
+section {
+    padding: 1.5em;
+}
+#unicorn {
+    opacity: 50%;
+}
+li {
+    list-style: '';
+    padding: 0.2em;
+}
+.container {
+    margin-top: 3em;
+}
+.columns, form, h2, .contact {
+    margin-top: 1.5em;
+}
+.contact {
+    margin-top: 1em;
+}
+#credits {
+    font-size: 0.8em;
+}
+#arrow {
+    height: 3em;
+    width: auto;
+    margin: 2em;
+}
+#welcome {
+    height: 3em;
+}
+

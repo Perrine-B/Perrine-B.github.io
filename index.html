@@ -1,1 +1,331 @@
-Hello world
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Front-End Dev</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <header class="navigation">
+        <nav class="navbar is-fixed-top is-dark" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id='navMenu' class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href='#home'>
+                        Home
+                    </a>
+                    <a class="navbar-item" href='#skills'>
+                        Skills
+                    </a>
+                    <a class="navbar-item" href='#work'>
+                        Work
+                    </a>
+                    <a class="navbar-item" href='#about'>
+                        About
+                    </a>
+                    <a class="navbar-item" href="#contact">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- end nav -->
+        <!-- Hero section -->
+        <section id='home' class="hero is-fullheight is-primary is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="level is-mobile">
+                        <div class="level-item has-text-centered">
+                            <div>
+                                <figure id='portrait' class="image is-128x128">
+                                    <img src='./assets/img/me.png' alt='pixel portrait'>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="level-item has-text-centered">
+                        <div id='welcome'>
+                            <h2 id='hello' data-label="Hi there ! I'm Perrine. It's dangerous to go alone. Take this"
+                                class="subtitle">
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- End Hero section -->
+    <!-- Skills section-->
+    <section class='has-margin-top-${45em}' id='skills'>
+        <div class="container">
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-white">
+                        <div class="content">
+                            <p class="title">Skills</p>
+                            <div class="content">
+
+                                <figure id='unicorn' class="image">
+                                    <img src='./assets/img/unicorn.jpg' alt='dabbing unicorn'>
+                                    <a href="https://www.freepik.com/free-photos-vectors/cartoon" id='credits'>vector created by freepik - www.freepik.com</a>
+                                </figure>
+    
+                                <p>I previously worked as a data librarian. Since last year, I intend to start a new career as a web developper. In order to make that project become reality, just finish <a href='https://oclock.io/'>O'Clock</a> : an intensive 5-months training . For now, I'm preparing the final exam' incoming in March 2020, as well <a href='https://www.opquast.com/'>Opquast</a> certification, in February.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+    
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-white is-vertical">
+    
+                                <p class="subtitle">Langages</p>
+                                <ul>
+                                    <li><span class="tag is-light">HTML</span></li>
+                                    <li><span class="tag is-dark">CSS</span></li>
+                                    <li><span class="tag is-dark">A little bit of SASS</span></li>
+                                    <li><span class="tag is-danger">Javascript</span></li>
+                                </ul>
+    
+                            </article>
+    
+                            <article class="tile is-child notification is-white">
+                                <p class="subtitle">Librairies & Frameworks</p>
+                                <ul>
+                                    <li><span class="tag is-danger">React</span></li>
+                                    <li><span class="tag is-danger">Redux</span></li>
+                                    <li><span class="tag is-dark">Bootstrap</span></li>
+                                    <li><span class="tag is-dark">Materialize</span></li>
+                                    <li><span class="tag is-danger">Material-UI</span></li>
+                                </ul>
+                            </article>
+    
+                        </div>
+    
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-white">
+    
+                                <p class="subtitle">Also familiar with</p>
+                                <ul>
+                                    <li><span class="tag is-warning">Github</span></li>
+                                    <li><span class="tag is-warning">SQL</span></li>
+                                    <li><span class="tag is-warning">Strategic monitoring</span></li>
+                                    <li><span class="tag is-warning">MVC</span></li>
+                                </ul>
+                                <br>
+                                <p class="subtitle">Intends to learn</p>
+    
+                                <ul>
+                                    <li><span class="tag is-danger">Vue</span></li>
+                                    <li><span class="tag is-danger">Javascript</span></li>
+                                    <li> <span class="tag is-danger">More Javascript</span></li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-white">
+                            <p class="subtitle">And a little pinch of back with</p>
+                            <ul>
+                                <li><span class="tag is-info">PHP</span></li>
+                                <li><span class="tag is-info">Lumen</span></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills section-->
+    <!-- Work section-->
+    <section id='work'>
+        <div class="container">
+            <h1 class="title">Work</h1>
+            <p>During O'Clock training, students have to craft a complete website starting from a project
+                submitted by
+                one of ours. You will find soon this work on the corresponding Github repository. I planned to add
+                here more
+                personal projects that i'm actually working on, such as a tiny React component library, or an API
+                intending to sum up Warhammer RPG
+                rules. </p>
+            <div class="columns">
+                <div class='column is-4'>
+                    <article class="message is-dark is-4">
+                        <div class="message-header">
+                            <p>Echo</p>
+                        </div>
+                        <div class="message-body">
+                            Echo is a social sharing site allowing users to notice people about relevant musical
+                            events wherever they are.
+                            <p class="card-footer-item">Soon available on Github</p>
+                            <!--<a href="#" class="disabled card-footer-item">See on Github </a>-->
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work section-->
+    <!-- About section-->
+    <section id='about'>
+        <div class="container">
+            <div class='columns'>
+                <div class='column is-2'>
+                    <h1 class="title">About</h1>
+                </div>
+                <div class='column is-2'></div>
+                <div class='column is-7'>
+                    <p>I'm a French junior developer living in Rouen. I'm a cats/Sigur Ros/Javascript/RPG lover,
+                        always looking for a new topic to be fond of !</p>
+                    <p>Actually, I'm self-learning Japanese langage and litterature. Oh, and I see a course dealing with
+                        basics of animation and ..*endless story..*</p>
+                    <p>Anyway, what I like the most in development is that moment where you find a solution to that
+                        problem that makes you crazy since the two past days. StackOverflow, thank you !
+                    </p>
+                </div>
+            </div>
+            <!-- Topic area-->
+            <h2 class='subtitle'>Three trendings topics that I can talk about, at coffee break </h2>
+            <div id='topics' class='columns is-desktop'>
+                <div class="column">
+                    <div class='card'>
+                        <div class="card-content">
+                            <p class="subtitle">
+                                'Hey guys, did someone see that animated baby Yoda made with only CSS ??'
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    View on <a href="https://codepen.io/deryatanriverdi88/pen/RwNELzd">CodePen</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class='column'>
+                    <div class="card">
+                        <div class="card-content">
+                            <p class="subtitle">
+                                'Last night, hung out on ADN and I saw that terrific anime'
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    Worth it ! <a
+                                        href="https://www.senscritique.com/serie/Le_Rakugo_ou_la_vie/18580554">Here is a
+                                        description</a>
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <div class=" column">
+                    <div class='card'>
+                        <div class="card-content">
+                            <p class="subtitle">
+                                “Always be wary of any helpful item that weighs less than its operating manual.”
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item">
+                                <span>
+                                    Not really a topic but Terry Pratchett
+                                </span>
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <!-- End Topic area-->
+        </div>
+    </section>
+    <!-- End About section-->
+    <!-- Contact section-->
+    <section id='contact'>
+        <div class="container">
+            <div class='columns'>
+    
+                <div class='column is-2'>
+                    <h1 class="title">Contact</h1>
+                </div>
+    
+                <div class='contact column is-8'>
+                    <p>Any questions ? Let's get in touch though
+                        <span class="icon is-small">
+                            <a href='https://www.linkedin.com/in/perrine-brianchon/'>
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </span> or
+                        <span class="icon is-small">
+                            <a href='https://github.com/Perrine-B'>
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span> or the following form (that uses Formspree service).</p>
+                    <!-- Form -->
+                    <form method='post' action='https://formspree.io/mpzdzakp'>
+    
+                        <div class="field">
+                            <label class="label">Name</label>
+                            <div class="control">
+                                <input name="name" class="input" type="text" placeholder="Your name">
+                            </div>
+                        </div>
+    
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input name="_replyto" class="input" type="email" placeholder="Your email">
+                            </div>
+                        </div>
+    
+                        <div class="field">
+                            <label class="label">Message</label>
+                            <div class="control">
+                                <textarea name="message" class="textarea" placeholder="Textarea"></textarea>
+                            </div>
+                        </div>
+    
+                        <div class="field is-grouped is-grouped-right">
+                            <p class="control">
+                                <button class="button is-dark right">Send</button>
+                            </p>
+                        </div>
+                    </form>
+                    <!-- End Form -->
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!-- End Contact section-->
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p> Handcrafted with a lot of Genmaïcha</p>
+            <p>with the little-big help of <a href='https://bulma.io/'>Bulma</a></p>
+            <p> See source code on <a href='https://github.com/Perrine-B/Perrine-B.github.io'>Github</a></p>
+        </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+    </body>
+    
+    </html>
